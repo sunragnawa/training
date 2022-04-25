@@ -1,2 +1,0 @@
-# bashscripting
-exercises
