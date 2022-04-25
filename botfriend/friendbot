@@ -1,0 +1,36 @@
+#! /bin/bash
+echo -e "<<< what is you name botfriend,please type it here down ?\n"
+read  name
+echo "<<< welcome mr $name the BOT "
+sleep 2
+echo -e "<<< can you tell what time is it now $name \n " ;sleep 2
+echo "sure it is   $( date +"%T")";sleep 3
+echo -e "<<<that was easy,now let see how brave your are with number whats  all  prime numbers till 145 \n";sleep 3
+echo " hold on ! let me call my function"; sleep 2
+primes () {
+echo -n " 1 2 "
+for i in  {3..145};
+do
+	for ((j=2;j<=$i;j++)); do 
+	if [ $(($i%$j)) == 0 ]; 
+	then 
+	break
+	else 
+	echo -n " $i"
+	break
+	fi
+	done	
+done
+echo -e " \n"	
+}
+primes
+sleep  2
+echo  -e  "<<< waw /! good,let s have a break can u tell me a joke.\n  " ;sleep 2
+echo -e "Am a  machine,i hope you get the sense,here is one !\n ";sleep 1
+joke_fun (){
+echo "$(shuf   jokes.txt)" > rando.txt
+while read line;do echo "$line" && break ;done < rando.txt
+}
+joke_fun
+echo -e "\n <<< HaHaHaHaHaHaHaHaHaHaHHa,please  another joke !\n "; sleep 2
+joke_fun
