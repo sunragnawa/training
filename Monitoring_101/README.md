@@ -6,17 +6,17 @@ our use of resources like CPU ,RAM,Storage, NETWORK?and being able to identify p
 there are a lot of tools to use when it comes to monitor your system, some come built-in with your distro , other you need to install them.
 we will start for most known ones to others with more features and specific area like network traffic and so on.
 ## most common command built-in.
-**df:**
+### **df:**
 report file system disk space usage
 show all blocks allocated to entire file system icluding inode and meta data.
 ![image](https://static.haydenjames.io/wp-content/uploads/2020/11/df-command-in-linux.png).
 
-**du:**
+### **du:**
 it is similar to df command,,but more specific to estimate file space usage:
 df -option filename
 ![image](https://linuxhint.com/wp-content/uploads/2021/05/Linux-Du-Command-Examples-1.png).
 
-**top:**
+### **top:**
 In UNIX-like systems, the top command reports valuable system information like running processes and resource usage. It shows processor activity and kernel-managed tasks in real-time. It’s one of the staple tools for system administrators.
 ![img](https://linuxhint.com/wp-content/uploads/2020/10/word-image-376-810x390.png).
 
@@ -34,7 +34,7 @@ wa: Waiting time for I/O to complete.
 hi: Servicing hardware interrupts.
 si: Servicing software interrupts.
 st: Time lost for running virtual machines, also known as “steal time”.
-**vmstat:**
+### **vmstat:**
 Report virtual memory statistic sabout processes, memory, paging, block IO, traps,
  disks and cpu activity.running vmstat command will generate resume see the pic
 ![img](https://linuxhint.com/wp-content/uploads/2021/01/v4.png)
@@ -42,15 +42,15 @@ for other details we can add option to have detailed reports.
 
 we saw here some of commands that can help us track and monitor our system health,but there a other opensource tools with more features.
 ## other tools here
-**htop**
+### **htop**
 like top command but with more features;filtring,ps tree ,or even kill a process with graphical optimisation.
 ![img](https://linuxhint.com/wp-content/uploads/2021/01/image5.png)
 
 
-**lsoft**
+### **lsoft**
 “lsof” stands for List Open Files. It is a Linux utility for listing down all the open files of a system. This command can be combined with different parameters to modify its output as desired.
 
-**tcpdump**
+### **tcpdump**
 The “tcpdump” is a packet analyzer and used to diagnose and analyze network issues. It captures the network traffic going through your device and looks over it. The “tcpdump” tool is a powerful tool to troubleshoot network issues. It comes with many options, which makes it a versatile command-line utility to fix network issues.
 ![img](https://linuxhint.com/wp-content/uploads/2021/04/word-image-93.png)
 
@@ -61,7 +61,7 @@ To learn about the various fields of a captured packet, let’s take an example 
 ![img](https://linuxhint.com/wp-content/uploads/2021/04/word-image-100.png)
 
 tcpdump is a great tool to monitor your network and tracking suspect connection and bottleneck issues
-**netstat**
+### **netstat**
 System administrators utilize network statistics or netstat as a command-line tool to analyze network data. Routing tables, multicast memberships, interface statistics, network connections, masquerade connections, and other network-related information is displayed using the netstat command. It also assists you in finding out network problems.
 
 there are other network comand to try like ifconfig tracerert ping ip route,,,.
@@ -75,7 +75,7 @@ here you find who tried to athenticate to the server , if succeded or failed,whe
 
 ### last command
 Usually, you will only be interested in the most recent login attempts. You can see these with the "last" toolgrep 
-**last**
+#### **last**
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20190322013059/Screenshot-from-2019-03-22-00-43-28.png)
 
 ### lastlog command
