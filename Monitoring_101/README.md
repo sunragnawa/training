@@ -38,6 +38,7 @@ st: Time lost for running virtual machines, also known as “steal time”.
 Report virtual memory statistic sabout processes, memory, paging, block IO, traps,
  disks and cpu activity.running vmstat command will generate resume see the pic
 ![img](https://linuxhint.com/wp-content/uploads/2021/01/v4.png)
+
 for other details we can add option to have detailed reports.
 
 we saw here some of commands that can help us track and monitor our system health,but there a other opensource tools with more features.
@@ -68,20 +69,26 @@ there are other network comand to try like ifconfig tracerert ping ip route,,,.
 ## logging tools and command
 it is imporant to know whos is connected to our system ,when and from where,,and what he did, is it an authorized person, he have permesions to certain things
 we will see here some.we can gather a lot of info from our log dir,,you can find it in /var/log.
+
 ### autho.log
 here you find who tried to athenticate to the server , if succeded or failed,when,via ssh and other info:
 **grep "Failed password" /var/log/auth.log**
 ![img](https://www.tecmint.com/wp-content/uploads/2017/12/List-All-Failed-SSH-Login-Attempts.png)
 
+
 ### last command
 Usually, you will only be interested in the most recent login attempts. You can see these with the "last" toolgrep 
+
 #### **last**
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/20190322013059/Screenshot-from-2019-03-22-00-43-28.png)
+
 
 ### lastlog command
 f you would like to look at this situation from a different angle, you can view the last time each user on the system logged in.
 
-This information is provided by accessing the "/etc/log/lastlog" file. It is then sorted according to the entries in the "/etc/passwd" file:
+
+This information is provided by accessing the "/etc/log/lastlog" file. It is then sorted according to the entries in the "/etc/passwd" 
+
 ### whowatch command
 whowatch is a simple, easy-to-use interactive who-like command line program for monitoring processes and users on a Linux system. It shows who is logged on to your system and what they are doing, in a similar fashion as the w command in real-time
 It shows total number of users on the system and number of users per connection type (local, telnet, ssh and others). whowatch also shows system uptime and displays information such as user’s login name, tty, host, processes as well as the type of the connection.
@@ -89,9 +96,11 @@ It shows total number of users on the system and number of users per connection 
 In addition, you can select a particular user and view their processes tree. In the process tree mode, you can send the SIGINT and SIGKILL signals to selected process in a fun way.
 ![img](https://www.tecmint.com/wp-content/uploads/2018/07/Monitor-Logged-in-Users.png)
 
+
 ### command glances
 Glances is a cross-platform command-line curses-based system monitoring tool written in Python language which use the psutil library to grab informations from the system. With Glance, we can monitor CPU, Load Average, Memory, Network Interfaces, Disk I/O, Processes and File System spaces utilization.
 ![img](https://raw.githubusercontent.com/nicolargo/glances/v3.0/docs/_static/glances-summary.png).
+
 
 here a link to get the maximum from this tool.
 [glances arg](https://www.booleanworld.com/install-use-glances-monitor-linux-systems)
