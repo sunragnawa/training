@@ -1,0 +1,152 @@
+COMMAND  PID TID TASKCMD   USER   FD      TYPE DEVICE SIZE/OFF  NODE NAME
+init       1               root  cwd   unknown                       /proc/1/cwd (readlink: Permission denied)
+init       1               root  rtd   unknown                       /proc/1/root (readlink: Permission denied)
+init       1               root  txt   unknown                       /proc/1/exe (readlink: Permission denied)
+init       1               root NOFD                                 /proc/1/fd (opendir: Permission denied)
+init       1   7 init      root  cwd   unknown                       /proc/1/task/7/cwd (readlink: Permission denied)
+init       1   7 init      root  rtd   unknown                       /proc/1/task/7/root (readlink: Permission denied)
+init       1   7 init      root  txt   unknown                       /proc/1/task/7/exe (readlink: Permission denied)
+init       1   7 init      root NOFD                                 /proc/1/task/7/fd (opendir: Permission denied)
+init     281               root  cwd   unknown                       /proc/281/cwd (readlink: Permission denied)
+init     281               root  rtd   unknown                       /proc/281/root (readlink: Permission denied)
+init     281               root  txt   unknown                       /proc/281/exe (readlink: Permission denied)
+init     281               root NOFD                                 /proc/281/fd (opendir: Permission denied)
+init     282               root  cwd   unknown                       /proc/282/cwd (readlink: Permission denied)
+init     282               root  rtd   unknown                       /proc/282/root (readlink: Permission denied)
+init     282               root  txt   unknown                       /proc/282/exe (readlink: Permission denied)
+init     282               root NOFD                                 /proc/282/fd (opendir: Permission denied)
+bash     283             mourad  cwd       DIR   8,16     4096   678 /home/mourad
+bash     283             mourad  rtd       DIR   8,16     4096     2 /
+bash     283             mourad  txt       REG   8,16  1183448 37811 /usr/bin/bash
+bash     283             mourad  mem       REG   8,16    51832 12664 /usr/lib/x86_64-linux-gnu/libnss_files-2.31.so
+bash     283             mourad  mem       REG   8,16   201272  3060 /usr/lib/locale/C.UTF-8/LC_CTYPE
+bash     283             mourad  mem       REG   8,16       50  3067 /usr/lib/locale/C.UTF-8/LC_NUMERIC
+bash     283             mourad  mem       REG   8,16     3360  3070 /usr/lib/locale/C.UTF-8/LC_TIME
+bash     283             mourad  mem       REG   8,16  1518110  3059 /usr/lib/locale/C.UTF-8/LC_COLLATE
+bash     283             mourad  mem       REG   8,16      270  3065 /usr/lib/locale/C.UTF-8/LC_MONETARY
+bash     283             mourad  mem       REG   8,16       48  3064 /usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES
+bash     283             mourad  mem       REG   8,16       34  3068 /usr/lib/locale/C.UTF-8/LC_PAPER
+bash     283             mourad  mem       REG   8,16       62  3066 /usr/lib/locale/C.UTF-8/LC_NAME
+bash     283             mourad  mem       REG   8,16      131  3058 /usr/lib/locale/C.UTF-8/LC_ADDRESS
+bash     283             mourad  mem       REG   8,16  3035952  3071 /usr/lib/locale/locale-archive
+bash     283             mourad  mem       REG   8,16  2029560 12363 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+bash     283             mourad  mem       REG   8,16    18816 12402 /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+bash     283             mourad  mem       REG   8,16   192032 12809 /usr/lib/x86_64-linux-gnu/libtinfo.so.6.2
+bash     283             mourad  mem       REG   8,16       47  3069 /usr/lib/locale/C.UTF-8/LC_TELEPHONE
+bash     283             mourad  mem       REG   8,16       23  3062 /usr/lib/locale/C.UTF-8/LC_MEASUREMENT
+bash     283             mourad  mem       REG   8,16    27002 12194 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash     283             mourad  mem       REG   8,16   191472 12230 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+bash     283             mourad  mem       REG   8,16      252  3061 /usr/lib/locale/C.UTF-8/LC_IDENTIFICATION
+bash     283             mourad    0u      CHR  136,1      0t0     4 /dev/pts/1
+bash     283             mourad    1u      CHR  136,1      0t0     4 /dev/pts/1
+bash     283             mourad    2u      CHR  136,1      0t0     4 /dev/pts/1
+bash     283             mourad  255u      CHR  136,1      0t0     4 /dev/pts/1
+su       296               root  cwd   unknown                       /proc/296/cwd (readlink: Permission denied)
+su       296               root  rtd   unknown                       /proc/296/root (readlink: Permission denied)
+su       296               root  txt   unknown                       /proc/296/exe (readlink: Permission denied)
+su       296               root NOFD                                 /proc/296/fd (opendir: Permission denied)
+bash     297               moro  cwd   unknown                       /proc/297/cwd (readlink: Permission denied)
+bash     297               moro  rtd   unknown                       /proc/297/root (readlink: Permission denied)
+bash     297               moro  txt   unknown                       /proc/297/exe (readlink: Permission denied)
+bash     297               moro NOFD                                 /proc/297/fd (opendir: Permission denied)
+init    3007               root  cwd   unknown                       /proc/3007/cwd (readlink: Permission denied)
+init    3007               root  rtd   unknown                       /proc/3007/root (readlink: Permission denied)
+init    3007               root  txt   unknown                       /proc/3007/exe (readlink: Permission denied)
+init    3007               root NOFD                                 /proc/3007/fd (opendir: Permission denied)
+init    3008               root  cwd   unknown                       /proc/3008/cwd (readlink: Permission denied)
+init    3008               root  rtd   unknown                       /proc/3008/root (readlink: Permission denied)
+init    3008               root  txt   unknown                       /proc/3008/exe (readlink: Permission denied)
+init    3008               root NOFD                                 /proc/3008/fd (opendir: Permission denied)
+bash    3009             mourad  cwd       DIR   8,16     4096   678 /home/mourad
+bash    3009             mourad  rtd       DIR   8,16     4096     2 /
+bash    3009             mourad  txt       REG   8,16  1183448 37811 /usr/bin/bash
+bash    3009             mourad  mem       REG   8,16    51832 12664 /usr/lib/x86_64-linux-gnu/libnss_files-2.31.so
+bash    3009             mourad  mem       REG   8,16   201272  3060 /usr/lib/locale/C.UTF-8/LC_CTYPE
+bash    3009             mourad  mem       REG   8,16       50  3067 /usr/lib/locale/C.UTF-8/LC_NUMERIC
+bash    3009             mourad  mem       REG   8,16     3360  3070 /usr/lib/locale/C.UTF-8/LC_TIME
+bash    3009             mourad  mem       REG   8,16  1518110  3059 /usr/lib/locale/C.UTF-8/LC_COLLATE
+bash    3009             mourad  mem       REG   8,16      270  3065 /usr/lib/locale/C.UTF-8/LC_MONETARY
+bash    3009             mourad  mem       REG   8,16       48  3064 /usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES
+bash    3009             mourad  mem       REG   8,16       34  3068 /usr/lib/locale/C.UTF-8/LC_PAPER
+bash    3009             mourad  mem       REG   8,16       62  3066 /usr/lib/locale/C.UTF-8/LC_NAME
+bash    3009             mourad  mem       REG   8,16  3035952  3071 /usr/lib/locale/locale-archive
+bash    3009             mourad  mem       REG   8,16  2029560 12363 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+bash    3009             mourad  mem       REG   8,16    18816 12402 /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+bash    3009             mourad  mem       REG   8,16   192032 12809 /usr/lib/x86_64-linux-gnu/libtinfo.so.6.2
+bash    3009             mourad  mem       REG   8,16      131  3058 /usr/lib/locale/C.UTF-8/LC_ADDRESS
+bash    3009             mourad  mem       REG   8,16       47  3069 /usr/lib/locale/C.UTF-8/LC_TELEPHONE
+bash    3009             mourad  mem       REG   8,16       23  3062 /usr/lib/locale/C.UTF-8/LC_MEASUREMENT
+bash    3009             mourad  mem       REG   8,16    27002 12194 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash    3009             mourad  mem       REG   8,16   191472 12230 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+bash    3009             mourad  mem       REG   8,16      252  3061 /usr/lib/locale/C.UTF-8/LC_IDENTIFICATION
+bash    3009             mourad    0u      CHR  136,0      0t0     3 /dev/pts/0
+bash    3009             mourad    1u      CHR  136,0      0t0     3 /dev/pts/0
+bash    3009             mourad    2u      CHR  136,0      0t0     3 /dev/pts/0
+bash    3009             mourad  255u      CHR  136,0      0t0     3 /dev/pts/0
+init    3085               root  cwd   unknown                       /proc/3085/cwd (readlink: Permission denied)
+init    3085               root  rtd   unknown                       /proc/3085/root (readlink: Permission denied)
+init    3085               root  txt   unknown                       /proc/3085/exe (readlink: Permission denied)
+init    3085               root NOFD                                 /proc/3085/fd (opendir: Permission denied)
+init    3086               root  cwd   unknown                       /proc/3086/cwd (readlink: Permission denied)
+init    3086               root  rtd   unknown                       /proc/3086/root (readlink: Permission denied)
+init    3086               root  txt   unknown                       /proc/3086/exe (readlink: Permission denied)
+init    3086               root NOFD                                 /proc/3086/fd (opendir: Permission denied)
+bash    3087             mourad  cwd       DIR   8,16     4096 40705 /home/mourad/training
+bash    3087             mourad  rtd       DIR   8,16     4096     2 /
+bash    3087             mourad  txt       REG   8,16  1183448 37811 /usr/bin/bash
+bash    3087             mourad  mem       REG   8,16    51832 12664 /usr/lib/x86_64-linux-gnu/libnss_files-2.31.so
+bash    3087             mourad  mem       REG   8,16   201272  3060 /usr/lib/locale/C.UTF-8/LC_CTYPE
+bash    3087             mourad  mem       REG   8,16       50  3067 /usr/lib/locale/C.UTF-8/LC_NUMERIC
+bash    3087             mourad  mem       REG   8,16     3360  3070 /usr/lib/locale/C.UTF-8/LC_TIME
+bash    3087             mourad  mem       REG   8,16  1518110  3059 /usr/lib/locale/C.UTF-8/LC_COLLATE
+bash    3087             mourad  mem       REG   8,16      270  3065 /usr/lib/locale/C.UTF-8/LC_MONETARY
+bash    3087             mourad  mem       REG   8,16       48  3064 /usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES
+bash    3087             mourad  mem       REG   8,16       34  3068 /usr/lib/locale/C.UTF-8/LC_PAPER
+bash    3087             mourad  mem       REG   8,16       62  3066 /usr/lib/locale/C.UTF-8/LC_NAME
+bash    3087             mourad  mem       REG   8,16  3035952  3071 /usr/lib/locale/locale-archive
+bash    3087             mourad  mem       REG   8,16  2029560 12363 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+bash    3087             mourad  mem       REG   8,16    18816 12402 /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+bash    3087             mourad  mem       REG   8,16   192032 12809 /usr/lib/x86_64-linux-gnu/libtinfo.so.6.2
+bash    3087             mourad  mem       REG   8,16      131  3058 /usr/lib/locale/C.UTF-8/LC_ADDRESS
+bash    3087             mourad  mem       REG   8,16       47  3069 /usr/lib/locale/C.UTF-8/LC_TELEPHONE
+bash    3087             mourad  mem       REG   8,16       23  3062 /usr/lib/locale/C.UTF-8/LC_MEASUREMENT
+bash    3087             mourad  mem       REG   8,16    27002 12194 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+bash    3087             mourad  mem       REG   8,16   191472 12230 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+bash    3087             mourad  mem       REG   8,16      252  3061 /usr/lib/locale/C.UTF-8/LC_IDENTIFICATION
+bash    3087             mourad    0u      CHR  136,2      0t0     5 /dev/pts/2
+bash    3087             mourad    1u      CHR  136,2      0t0     5 /dev/pts/2
+bash    3087             mourad    2u      CHR  136,2      0t0     5 /dev/pts/2
+bash    3087             mourad  255u      CHR  136,2      0t0     5 /dev/pts/2
+lsof    3142             mourad  cwd       DIR   8,16     4096 40705 /home/mourad/training
+lsof    3142             mourad  rtd       DIR   8,16     4096     2 /
+lsof    3142             mourad  txt       REG   8,16   175744  2026 /usr/bin/lsof
+lsof    3142             mourad  mem       REG   8,16   201272  3060 /usr/lib/locale/C.UTF-8/LC_CTYPE
+lsof    3142             mourad  mem       REG   8,16  3035952  3071 /usr/lib/locale/locale-archive
+lsof    3142             mourad  mem       REG   8,16   157224 12739 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+lsof    3142             mourad  mem       REG   8,16    18816 12402 /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+lsof    3142             mourad  mem       REG   8,16   584392 12708 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.9.0
+lsof    3142             mourad  mem       REG   8,16  2029560 12363 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+lsof    3142             mourad  mem       REG   8,16   163200 12764 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lsof    3142             mourad  mem       REG   8,16    27002 12194 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lsof    3142             mourad  mem       REG   8,16   191472 12230 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+lsof    3142             mourad    0u      CHR  136,2      0t0     5 /dev/pts/2
+lsof    3142             mourad    1w      REG   8,16        0  1650 /home/mourad/training/lsofreport
+lsof    3142             mourad    2u      CHR  136,2      0t0     5 /dev/pts/2
+lsof    3142             mourad    3r      DIR   0,24        0     1 /proc
+lsof    3142             mourad    4r      DIR   0,24        0 31354 /proc/3142/fd
+lsof    3142             mourad    5w     FIFO   0,11      0t0 31359 pipe
+lsof    3142             mourad    6r     FIFO   0,11      0t0 31360 pipe
+lsof    3143             mourad  cwd       DIR   8,16     4096 40705 /home/mourad/training
+lsof    3143             mourad  rtd       DIR   8,16     4096     2 /
+lsof    3143             mourad  txt       REG   8,16   175744  2026 /usr/bin/lsof
+lsof    3143             mourad  mem       REG   8,16   201272  3060 /usr/lib/locale/C.UTF-8/LC_CTYPE
+lsof    3143             mourad  mem       REG   8,16  3035952  3071 /usr/lib/locale/locale-archive
+lsof    3143             mourad  mem       REG   8,16   157224 12739 /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+lsof    3143             mourad  mem       REG   8,16    18816 12402 /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+lsof    3143             mourad  mem       REG   8,16   584392 12708 /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.9.0
+lsof    3143             mourad  mem       REG   8,16  2029560 12363 /usr/lib/x86_64-linux-gnu/libc-2.31.so
+lsof    3143             mourad  mem       REG   8,16   163200 12764 /usr/lib/x86_64-linux-gnu/libselinux.so.1
+lsof    3143             mourad  mem       REG   8,16    27002 12194 /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lsof    3143             mourad  mem       REG   8,16   191472 12230 /usr/lib/x86_64-linux-gnu/ld-2.31.so
+lsof    3143             mourad    4r     FIFO   0,11      0t0 31359 pipe
+lsof    3143             mourad    7w     FIFO   0,11      0t0 31360 pipe
