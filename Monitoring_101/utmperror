@@ -1,0 +1,1 @@
+ cant generate other useful logs exmp with w ,who,whowatch command due to WSl2 utmp issue.utmp is nt created at start, they still working to fix this issue
