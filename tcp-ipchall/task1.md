@@ -8,17 +8,17 @@
   -The smallest size of the OSI header is 5 bytes. | The smallest size of the TCP/IP header is 20 bytes.
   -The OSI model represents defines administration, interfaces and conventions. It describes clearly which layer provides services.|It does not mention the services, interfaces, and protocols.
 
-**layers diff**
-![img] (https://www.tutorialspoint.com/assets/questions/media/51877/reference_model.jpg).
+## **layers diff**
+![img](https://www.tutorialspoint.com/assets/questions/media/51877/reference_model.jpg).
 
-**acronym**
+## **acronym**
 tcp refer to transport control protocol and ip to internet protocol
 
-**protocols and related layes**
+## *protocols and related layes**
 
 ![protos and corr layes](https://sourcedaddy.com/windows-xp/images/uti1.gif)
 
-**3wayhandshake**
+## **3wayhandshake**
 this describe how the connection will be established in first between 2 and points,SYN SYN AND ACK,ACK
 here an image how it is done
 
@@ -27,33 +27,33 @@ here an image how it is done
 this is only start of the connection , but define also define some connection para like win size(size of packet can be handles at one time,and other,,)also remark the start seq =0 and ack=1 ( 0 just to simply usualy its a random number),the seq and ack number will keep tracking and confirm the packets sent and recieved between the 2 points:
 ![omg] (https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
 
-**"4-way disconnect"**
+## **"4-way disconnect"**
 The common way of terminating a TCP connection is by using the TCP header’s FIN flag. This mechanism allows each host to release its own side of the connection individually. 
 
 ![img](https://media.geeksforgeeks.org/wp-content/uploads/CN.png)
 
-  **Seq number and Ack number**
+ ## **Seq number and Ack number**
   The sequence number is the byte number of the first byte of data in the TCP packet sent (also called a TCP segment). The acknowledgement number is the sequence number of the next byte the receiver expects to receive.
   CP Sequence (seq) and Acknowledgement (ack) numbers help enable ordered reliable data transfer for TCP streams. The seq number is sent by the TCP client, indicating how much data has been sent for the session (also known as the byte-order number).
 
-  **port types**
+  ## **port types**
   The port numbers are divided into three ranges: the well-known ports, the registered ports, and the dynamic or private ports.
   -Port numbers from 0 to 1023 are reserved for common TCP/IP applications and are called well-known ports. The use of well-known ports allows client applications to easily locate the corresponding server application processes on other hosts
   -Registered ports are from 1024 to 49151.
   -from 49152 to 65535 can be used dynamically by applications
 
-  **wellknown port**
+  ## **wellknown port**
   here a list of well know port:
 
   ![img](https://ipwithease.com/wp-content/uploads/2020/06/COMMON-TCP-IP-WELL-KNOWN-PORT-NUMBERS-TABLE.jpg)
 
 
-  **tcp packets concept**
+  ## **tcp packets concept**
   TCP is a reliable stream delivery service which guarantees that all bytes received will be identical and in the same order as those sent. Since packet transfer by many networks is not reliable, TCP achieves this using a technique known as positive acknowledgement with re-transmission.
   The fields in Transmission Control Protocol (TCP) Segment Header are Source Port, Destination Port, Sequence Number, Acknowledgement Number, Header Length, Flags, Window Size, TCP Checksum and Urgent Pointer.
   ![img](https://www.lifewire.com/thmb/OhU9Rn5-Myfpbzjyy98U8UMAMCs=/1235x695/smart/filters:no_upscale()/tcp-headers-f2c0881ea4c94e919794b7c0677ab90a.jpg)
-  
-  **exemple how packets travel in a network:**
+
+  ## **exemple how packets travel in a network:**
   I will try to explain with an example: what happens when a Host-A requests a webpage 'www.google.com' through a browser application?
 
 Host-A first need to resolve 'www.google.com' to a IP address (gethostbyname). Host-A prepares a DNS packet (UDP protocol) with destination IP address as name-server (This is a DNS IP address given by DHCP server and stored in /etc/resolv.conf). For a UDP/IP packet to be sent, it should have srcIP, dstIP, srcPort, dstPort, srcMac, dstMac... You know what is srcIP, dstIP, srcPort, dstPort, srcMac. But you need to find a dstMac. DNS packet will be put back on hold until dstMac is found by using ARP protocol. There are two cases here:
