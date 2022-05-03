@@ -25,7 +25,8 @@ here an image how it is done
 ![img](https://www.luxoft-training.com/upload/medialibrary/452/TCP%20handshake.png)
 
 this is only start of the connection , but define also define some connection para like win size(size of packet can be handles at one time,and other,,)also remark the start seq =0 and ack=1 ( 0 just to simply usualy its a random number),the seq and ack number will keep tracking and confirm the packets sent and recieved between the 2 points:
-![omg] (https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
+
+![omg](https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-a-tcp-3-way-handshake-process-three-way-handshaking-establishing-connection-6a724e77ba96e241.jpg)
 
 ## **"4-way disconnect"**
 The common way of terminating a TCP connection is by using the TCP header’s FIN flag. This mechanism allows each host to release its own side of the connection individually. 
