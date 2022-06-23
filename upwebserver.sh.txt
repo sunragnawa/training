@@ -1,0 +1,19 @@
+# Update Packages
+apt update
+# Upgrade Packages
+apt upgrade -y
+
+# Apache
+apt install -y apache2
+
+# Enable Apache Mods
+a2enmod rewrite
+
+# Install PHP
+apt install -y php
+
+# PHP Apache Mod
+apt install -y libapache2-mod-php
+
+# Restart Apache
+systemctl restart apache2
